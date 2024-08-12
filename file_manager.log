@@ -1,0 +1,29 @@
+2024-08-12T14:20:35.698998: Search completed for: Dolphin in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:20:37.643481: Searched for Dolphin in /Users/cjgarcia/Desktop
+2024-08-12T14:20:46.405822: Search completed for: .jpg in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:20:51.981796: Searched for .jpg in /Users/cjgarcia/Desktop
+2024-08-12T14:20:55.822022: Search completed for: boot in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:20:58.087752: Searched for boot in /Users/cjgarcia/Desktop
+2024-08-12T14:21:09.973124: Search completed for: Screenshot in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:21:11.606098: Searched for Screenshot in /Users/cjgarcia/Desktop
+2024-08-12T14:21:24.977855: Search completed for: index in directory: /Users/cjgarcia
+2024-08-12T14:21:26.492598: Searched for index in /Users/cjgarcia
+2024-08-12T14:21:48.313972: Created directory: /Users/cjgarcia/Desktop/Test12
+2024-08-12T14:21:48.315512: Created directory Test12 in /Users/cjgarcia/Desktop
+2024-08-12T14:21:55.816224: Deleted /Users/cjgarcia/Desktop/Test12
+2024-08-12T14:22:09.891880: Copied fc79beb0b45a7aa611c776a5d3a717a2.jpg to /Users/cjgarcia/Desktop
+2024-08-12T14:22:30.597957: Copied fc79beb0b45a7aa611c776a5d3a717a2.jpg to /Users/cjgarcia/Desktop/stuff
+2024-08-12T14:22:38.279127: Deleted /Users/cjgarcia/Desktop/stuff/fc79beb0b45a7aa611c776a5d3a717a2.jpg
+2024-08-12T14:24:34.491237: Search completed for: quiz in directory: /Users/cjgarcia/Desktop/stuff
+2024-08-12T14:24:38.955083: Searched for quiz in /Users/cjgarcia/Desktop/stuff
+2024-08-12T14:25:00.425072: Deleted /Users/cjgarcia/Desktop/stuff/Scratch Project.sb3
+2024-08-12T14:25:10.560253: Moved quiz4.pdf to /Users/cjgarcia/Desktop
+2024-08-12T14:25:33.523956: Search completed for: quiz in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:25:35.431707: Searched for quiz in /Users/cjgarcia/Desktop
+2024-08-12T14:26:03.293570: Moved quiz4.pdf to /Users/cjgarcia/Desktop
+2024-08-12T14:26:27.813359: Moved quiz4.pdf to /Users/cjgarcia/Desktop/stuff
+2024-08-12T14:30:20.634648: Search completed for: /pdf in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:30:23.188026: Searched for /pdf in /Users/cjgarcia/Desktop
+2024-08-12T14:30:26.785275: Search completed for: .pdf in directory: /Users/cjgarcia/Desktop
+2024-08-12T14:30:40.455691: Searched for .pdf in /Users/cjgarcia/Desktop
+2024-08-12T14:32:49.319087: Moved temp.png to /Users/cjgarcia/Desktop/stuff
