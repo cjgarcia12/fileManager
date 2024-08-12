@@ -13,10 +13,11 @@ public class FileManagerGUI extends JFrame {
     private JButton moveButton;
     private JButton createDirButton;
     private JButton searchButton;
+    private JButton backButton;
     private JFileChooser jfc;
-    private FileOperations fileOperations;
-    private DirectoryOperations directoryOperations;
-    private SearchOperations searchOperations;
+    private final FileOperations fileOperations;
+    private final DirectoryOperations directoryOperations;
+    private final SearchOperations searchOperations;
 
     public FileManagerGUI() {
         fileOperations = new FileOperations();
@@ -47,6 +48,7 @@ public class FileManagerGUI extends JFrame {
         moveButton.setEnabled(false);
         createDirButton = new JButton("Create Directory");
         searchButton = new JButton("Search");
+        backButton = new JButton("Back");
 
         // Add action listeners to buttons
         addDeleteButtonListener();
@@ -54,15 +56,19 @@ public class FileManagerGUI extends JFrame {
         addMoveButtonListener();
         addCreateDirButtonListener();
         addSearchButtonListener();
+        addBackButtonListener();
+
 
         // Create a panel to hold buttons and set its layout
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+        buttonPanel.add(backButton);
         buttonPanel.add(deleteButton);
         buttonPanel.add(copyButton);
         buttonPanel.add(moveButton);
         buttonPanel.add(createDirButton);
         buttonPanel.add(searchButton);
+
 
         // Add the button panel to the top or bottom of the frame
         add(buttonPanel, BorderLayout.NORTH); // Or use BorderLayout.SOUTH to place at the bottom
@@ -103,6 +109,15 @@ public class FileManagerGUI extends JFrame {
         });
     }
 
+    private void addBackButtonListener() {
+        backButton.addActionListener(e -> {
+            File currentDir = jfc.getCurrentDirectory();
+            File parentDir = currentDir.getParentFile();
+            if (parentDir != null) {
+                jfc.setCurrentDirectory(parentDir);
+            }
+        });
+    }
     private void addCopyButtonListener() {
         copyButton.addActionListener(e -> {
             File selectedFile = jfc.getSelectedFile();
